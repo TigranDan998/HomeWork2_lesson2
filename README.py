@@ -42,3 +42,28 @@ for i in range(two_list):
     else:
         new_list.append(one_list[i]*2)
 print(new_list)
+#homework_lesson3_nomal
+#задача1
+
+import math
+one_list=[2,-5,8,9,-25,25,4]
+new_list=[]
+for i in one_list:
+    if i >0 and math.sqrt(i)%1==0:
+        new_list.append(int(math.sqrt(i)))
+print(new_list)
+
+#задача 3
+
+import random
+n=int(input("введи количество элементов"))
+new1_list=[]
+for a in range(n):
+    new1_list.append(random.randint(-100,100))
+print(new1_list)
+
+#задача 4
+one_list=[1,2,4,5,6,2,5,2]
+new_list=set(one_list)
+print(new_list)
+
